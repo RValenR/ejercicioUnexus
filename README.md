@@ -2,9 +2,10 @@
 Ejercicio unexus
 
 
-Metodo para guardar clientes
+##Metodo para guardar clientes
 http://localhost:8080/api/public/demo/saveClient
 JSON ejemplo de entrada
+
 {
   "tipoIdentificacion": null,
   "numeroIdentificacion": 123456789,
@@ -26,6 +27,7 @@ http://localhost:8080/api/public/demo/findDireccionesByNumeroIdentificacion/1234
 Metodo para agregar direcciones a los cleintes
 http://localhost:8080/api/public/demo/saveDirection
 JSON EJEMPLO de entrada (Usa el mismo que el guardado pero solo se toma en cuenta la nueva direccion)
+
 {
   "tipoIdentificacion": "DNI",
   "numeroIdentificacion": 123456789,
@@ -43,6 +45,7 @@ JSON EJEMPLO de entrada (Usa el mismo que el guardado pero solo se toma en cuent
 Metodo para actualizar un cliente ya existente
 http://localhost:8080/api/public/demo/updateClient
 JSON ejemplo
+
 {
   "tipoIdentificacion": "CD",
   "numeroIdentificacion": 123456789,
